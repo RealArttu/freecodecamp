@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <div id="page-wrapper">
+        <header id="header">
+            <div id="arthur-header">
+                <h1>Arthurs nature trips</h1>
+                <img id="header-img" alt="Arthurs nature trips logo" src="img/logo.png">
+            </div>
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="#what-is-it" class="nav-link">What is it?</a></li>
+                    <li><a href="#why-us" class="nav-link">Why us?</a></li>
+                    <li><a href="#join-us" class="nav-link">Join!</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container"> 
+            <div id="what-is-it">
+                <section class="info">
+                    <h3>What is it?</h3>
+                    <p>We are a traver company who offers beautiful trips to nature.</p>
+                </section>
+            </div>
+            <div id="why-us">
+                <section class="info">
+                    <h3>Why us?</h3>
+                    <p>We offer the best experience in the wild. </p>
+                    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/lrEwMTkbBwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <p>Till example we visted a beautiful creek, please watch the video. </p>                    
+                </section>
+            </div>
+            <div id="join-us">
+                <section class="info">
+                    <h3>Join us!</h3>
+                    <form id="form" action="https://www.freecodecamp.com/email-submit">
+                        <input name="email" id="email" type="email" placeholder="Join by entering your email" required>
+                        <input type="submit" id="submit" value="Join!" class="btn">
+                    </form>
+                </section>
+            </div>
+        </div>
+        <footer id="footer">
+            <ul>
+                <li><a href="#" class="footer-link">Privacy</a></li>
+                <li><a href="#" class="footer-link">Terms</a></li>
+                <li><a href="#" class="footer-link">Contact</a></li>
+            </ul>
+            <p>Copyright 2022, Arthurs Nature Trips</p>
+        </footer>
+    </div>
+</html>
+
+
+<!--
+
+1. Your product landing page should have a header element with a corresponding id="header"
+
+2. You can see an image within the header element with a corresponding id="header-img" (A logo would make a good image here)
+
+3. Within the #header element, you can see a nav element with a corresponding id="nav-bar"
+
+4. You can see at least three clickable elements inside the nav element, each with the class nav-link
+
+5. When you click a .nav-link button in the nav element, you are taken to the corresponding section of the landing page
+
+6. You can watch an embedded product video with id="video"
+
+7. Your landing page has a form element with a corresponding id="form"
+
+8. Within the form, there is an input field with id="email" where you can enter an email address
+
+9. The #email input field should have placeholder text to let users know what the field is for
+
+10. The #email input field uses HTML5 validation to confirm that the entered text is an email address
+
+11. Within the form, there is a submit input with a corresponding id="submit"
+
+12. When you click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit)
+
+13. The navbar should always be at the top of the viewport
+
+14. Your product landing page should have at least one media query
+
+15. Your product landing page should utilize CSS flexbox at least once
+
+
+-->
