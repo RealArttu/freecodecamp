@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     margin: 0;
     padding: 0;
@@ -29,11 +28,8 @@ body {
     background-color: white;
 }
 
-.question-header {
-    margin-top: 20px;
-    margin-right: 0;
-    margin-bottom: 10px;
-    margin-left: 0;
+.form-group {
+    margin: 1rem auto 1rem auto;
 }
 
 label {
@@ -42,7 +38,7 @@ label {
 }
 
 textarea {
-    width: 100%;
+    width: 80%;
     height: 150px;
     padding: 12px 20px;
     box-sizing: border-box;
