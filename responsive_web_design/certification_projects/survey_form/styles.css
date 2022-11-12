@@ -50,6 +50,10 @@ label {
     font-weight: 500;
 }
 
+.input-label {
+    font-weight: 1000;
+}
+
 input, select, textarea {
     width: 100%;
     margin-top: 10px;
@@ -73,6 +77,10 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
+}
+
+input[type="radio"], input[type="checkbox"], .click {
+    cursor: pointer;
 }
 
 /* Firefox */
@@ -103,6 +111,7 @@ button {
     width: 100%;
     font-size: 20px;
     font-weight: 1000;
+    cursor: pointer;
 }
 
 @media (max-width: 1500px) {
