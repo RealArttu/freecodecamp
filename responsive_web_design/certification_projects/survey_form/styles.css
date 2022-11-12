@@ -13,7 +13,6 @@ body {
 .full-screen-container {
     height: 150%;
     background-color: lightgreen;
-   /* background-image: url(background.jpg);*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,19 +25,28 @@ body {
     width: 40%;
     text-align: center;
     background-color: white;
+    border-radius: 16px;
 }
 
 .form-group {
     margin: 1rem auto 1rem auto;
 }
 
+#description {
+    font-weight: 1000;
+    font-size: 20px;
+}
+
 .question-header {
     margin-bottom: 10px;
+    font-weight: 1000;
+    font-size: 17px;
 }
-    
+
 label {
     display: block;
     margin: 0.5rem 0;
+    font-weight: 500;
 }
 
 input, select, textarea {
@@ -50,7 +58,7 @@ select {
     background-color: lightgray;
 }
 
-input[class="text"], select {
+input[class="text"], button, select {
     height: 40px;
     border: 2px solid black;
     padding-left: 16px;
@@ -84,6 +92,16 @@ textarea {
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     resize: none;
+}
+
+#name:focus, #email:focus, #number:focus, button:focus, #dropdown:focus, textarea:focus {
+    outline: 2px solid green;
+}
+
+button {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 1000;
 }
 
 @media (max-width: 1536px) {
