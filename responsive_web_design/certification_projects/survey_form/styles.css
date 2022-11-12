@@ -11,7 +11,7 @@ body {
 }
 
 .full-screen-container {
-    height: 1000px;
+    height: 1500px;
     background-color: white;
     background-image: url(background.jpg);
     display: flex;
@@ -32,14 +32,38 @@ body {
     margin: 1rem auto 1rem auto;
 }
 
+.question-header {
+    margin-bottom: 10px;
+}
+    
 label {
     display: block;
     margin: 0.5rem 0;
 }
+
 input, select, textarea {
     width: 100%;
+    margin-top: 10px;
 }
 
+input[class="text"], select {
+    height: 40px;
+    border: 2px solid black;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 16px
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
 .inline {
     width: unset;
 }
