@@ -11,16 +11,16 @@ body {
 }
 
 .full-screen-container {
-    height: 1500px;
-    background-color: white;
-    background-image: url(background.jpg);
+    height: 150%;
+    background-color: lightgreen;
+   /* background-image: url(background.jpg);*/
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .form-container {
-    margin: auto;
+    margin: 250px auto;
     border: 3px solid green;
     padding: 10px 10% 10px 10%;
     width: 40%;
@@ -46,12 +46,18 @@ input, select, textarea {
     margin-top: 10px;
 }
 
+select {
+    background-color: lightgray;
+}
+
 input[class="text"], select {
     height: 40px;
     border: 2px solid black;
     padding-left: 16px;
     padding-right: 16px;
-    border-radius: 16px
+    border-radius: 16px;
+    font-size: 15px;
+    background-color: lightgray;
 }
 /* Chrome, Safari, Edge, Opera */
 input::-webkit-outer-spin-button,
@@ -70,11 +76,11 @@ input[type=number] {
 textarea {
     width: 100%;
     height: 150px;
-    padding: 12px 12px;
+    padding: 16px;
     box-sizing: border-box;
     border: 2px solid black;
-    border-radius: 4px;
-    background-color: #C8C8C8;
+    border-radius: 16px;
+    background-color: lightgray;
     font-family: 'Raleway', sans-serif;
     font-size: 15px;
     resize: none;
