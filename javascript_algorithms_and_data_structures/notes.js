@@ -159,13 +159,33 @@ console.log(arr);
 // Manipulate array with pop(), it removes last element
 const popArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const popping = popArray.pop();
-console.log(popping + ": Popped result");
+console.log("Popped result: " + popping + " New array:");
 console.log(popArray);
 
 // Manipulate array with shift(), it removes first element
 const shiftArray = [11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
 const shifting = shiftArray.shift();
-console.log(shifting + ": Shifted result");
+console.log("Shifted result: " + shifting + " New array:");
 console.log(shiftArray);
 
-//
+//Manipulate array with unshift(), adds first element
+const unshiftArray = [["John", 23], ["dog", 3]];
+unshiftArray.shift();
+unshiftArray.unshift(["Paul", 35]);
+console.log(unshiftArray);
+
+// Multi dimensional array with sub-arrays
+const myShoppingList = [
+  ["Milk", 2],
+  ["Eggs", 10],
+  ["Juice", 5],
+  ["Apples", 3],
+  ["Tomatoes", 5],
+];
+
+// Functions
+function reusableFunction() {
+  console.log("Hi World");
+}
+
+reusableFunction();
