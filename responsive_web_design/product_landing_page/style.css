@@ -1,0 +1,49 @@
+/** global element styles **/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgreen;
+}
+
+#page-wrapper {
+    position: relative;
+    margin: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+/** global element styles end **/
+
+/** global classes styles **/
+#header {
+    position: fixed;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+}
+
+.container {
+    position: relative;
+    padding-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+}
+/** global classes styles end **/
